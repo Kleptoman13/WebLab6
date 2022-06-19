@@ -1,0 +1,131 @@
+.topSelect {
+    background-color: #000e5c;
+    color: azure;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+.topSelect ul {
+    display: flex;
+    justify-content:center;
+    padding: 0;
+    margin: 0;
+}
+.topSelect ul li {
+    list-style: none;
+}
+
+.topSelect ul li span {
+    display: block;
+    padding: 15px;
+    transition: 0.3s;
+}
+.topSelect ul li span:hover {
+    background-color: #00127a;
+}
+
+.topSelect ul li .Bicycle2 {
+    display: block;
+    padding: 15px;
+    transition: 0.3s;
+}
+.topSelect ul li .Bicycle2:hover {
+    background-color: #00127a;
+}
+
+.topSelect ul li .dropMenu_blocks {
+    background-color: #000e5c;
+    display: none;
+    position: absolute;
+    transition: 0.3s;
+    z-index: 1;
+}
+  
+.topSelect ul li .dropMenu_blocks a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 12px 16px;
+    transition: 0.3s;
+}
+.topSelect ul li .dropMenu_blocks a:hover {
+    background-color: #00127a;
+}
+
+.topSelect ul li .dropMenu:hover .dropMenu_blocks  {
+    display: block;
+    transition: 0.3s;
+}
+.fullpage .section {
+    background-color: #000;
+    position: relative;
+}
+.fullpage .section.vis .info_block {
+    opacity: 1;
+    transform: none;
+}
+.fullpage .section .back {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.3;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+.fullpage .section .info_block {
+    position: relative;
+    z-index: 9;
+}
+.fullpage .section .info_block .title {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+.fullpage .section .info_block .text {
+    text-align: center;
+    color: #fff;
+    line-height: 1.8;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.fullpage #section2 .slide .back {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    z-index: 2;
+}
+.fullpage #section2 .slide #back2 {
+    left: 100vw;
+}
+.fullpage #section2 .slide #back3 {
+    left: 200vw;
+} 
+
+.fp-controlArrow.fp-prev {
+    width: 50px;
+    height: 30px;
+    left: 30px;
+    background-color: #fff;
+    clip-path: polygon(25% 0, 10% 50%, 25% 100%, 25% 100%, 0% 50%, 25% 0%);
+  }
+.fp-controlArrow.fp-next {
+    width: 40px;
+    height: 20px;
+    right: 30px;
+    background-color: #fff;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 75% 100%, 90% 50%, 75% 0);
+  }
